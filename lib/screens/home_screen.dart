@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   overflow: TextOverflow.ellipsis,
                 ),
                 Text(
-                  '${_channel.subscriberCount} subscribers',
+                  '${_channel.subscriberCount} inscritos',
                   style: TextStyle(
                     color: Colors.grey[600],
                     fontSize: 16.0,
@@ -140,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('YouTube Channel'),
+        title: Text('Libraria News - Notícias em Libras'),
       ),
       body: _channel != null
           ? NotificationListener<ScrollNotification>(
