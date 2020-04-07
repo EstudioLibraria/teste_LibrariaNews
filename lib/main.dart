@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter YouTube API',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.red,
+        primaryColor: Color(0xFF303034),
       ),
       home: HomeScreen(),
     );
